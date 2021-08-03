@@ -23,16 +23,21 @@ body{
 }
 
 h1{
-    height: 100px;
+    height: 150px;
     width: 100%;
-    line-height: 100px;
+    line-height: 170px;
     vertical-align: center;
     background-color: rgb(253,187,64);
 }
 
 .burger{
-    width: 200px;
-    height: 200px;
+    width: 230px;
+    height: 230px;
+}
+
+main{
+    width: 100%;
+    height: calc(100vh - 250px);
 }
 
 .container{
@@ -78,6 +83,21 @@ h1{
     padding-left: 20px;
 }
 
+.fa-square-full{
+    width: 20px;
+    height: 20px;
+    background-color: rgb(211,51,89);
+    cursor: pointer;
+}
+
+.ml-20{
+    margin-left: 20px;
+}
+
+.color-pink{
+    color: rgb(211,51,89);
+}
+
 .inline{
     display: inline;
 }
@@ -92,4 +112,15 @@ h1{
     border: 0px;
     background-color: rgb(253,187,64);
     border-radius: 8px;
+    cursor: pointer;
+}
+
+.my-footer{
+    padding: 0px 100px;
+    color: white;
+    background-color: rgb(211,51,89);
+    width: 100%;
+    height: 100px;
+    line-height: 100px;
+    vertical-align: center;
 }
