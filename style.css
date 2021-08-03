@@ -4,7 +4,7 @@
     box-sizing: border-box;
 }
 
-#container{
+body{
     width: 100vh;
     height: 100vh;
     margin: 0 auto;
@@ -33,4 +33,51 @@ h1{
 .burger{
     width: 200px;
     height: 200px;
+}
+
+.container{
+    width: 80%;
+    margin-left: 4%;
+    margin-right: 16%;
+}
+
+.color-grey{
+    color: grey;
+}
+
+.pt-100{
+    padding-top: 100px;
+}
+
+.pb-50{
+    padding-bottom: 50px;
+}
+
+.column{
+    flex-direction: column;
+}
+
+.size-img{
+    height: 80px;
+    width: 80px;
+}
+
+.inline-block{
+    display: inline-block;
+}
+
+.align-items-center{
+    align-items: center;
+}
+
+.pb-20{
+    padding-bottom: 20px;
+}
+
+.pl-20{
+    padding-left: 20px;
+}
+
+.inline{
+    display: inline;
 }
