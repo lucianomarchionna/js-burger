@@ -3,3 +3,34 @@
     padding: 0;
     box-sizing: border-box;
 }
+
+#container{
+    width: 100vh;
+    height: 100vh;
+    margin: 0 auto;
+}
+
+.flex{
+    display: flex;
+}
+
+.space-between{
+    justify-content: space-between;
+}
+
+.pl-50{
+    padding-left: 50px;
+}
+
+h1{
+    height: 100px;
+    width: 100%;
+    line-height: 100px;
+    vertical-align: center;
+    background-color: rgb(253,187,64);
+}
+
+.burger{
+    width: 200px;
+    height: 200px;
+}
