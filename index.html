@@ -15,7 +15,7 @@
 
     <main>
         <div class="container">
-            <h2 class="color-grey pt-100">Name Your Burger</h2>
+            <input id="name" type="text" name="name" placeholder="Name Your Burger">
             <h2 class="pt-100 pb-50">Ingredients</h2>
 
             <div class="flex space-between pb-50">
@@ -24,19 +24,19 @@
                     <div class="flex align-items-center pb-20">
                         <img class="size-img" src="img/cheese.svg" alt="Cheese">
                         <h3 class="pl-20">Cheese</h3>
-                        <i class="fas fa-square-full ml-20"></i>
+                        <input class="square" type="checkbox" name="cheese" value="3">
                         <label class="ml-20 color-pink">add</label>
                     </div>
                     <div class="flex align-items-center pb-20">
                         <img class="size-img" src="img/fried-egg.svg" alt="Egg">
                         <h3 class="pl-20">Egg</h3>
-                        <i class="fas fa-square-full ml-20"></i>
+                        <input class="square" type="checkbox" name="egg" value="5">
                         <label class="ml-20 color-pink">add</label>
                     </div>
                     <div class="flex align-items-center pb-20">
                         <img class="size-img" src="img/mustard.svg" alt="Mustard">
                         <h3 class="pl-20">Mustard</h3>
-                        <i class="fas fa-square-full ml-20"></i>
+                        <input class="square" type="checkbox" name="mustard" value="3">
                         <label class="ml-20 color-pink">add</label>
                     </div>
                 </div>
@@ -45,34 +45,35 @@
                     <div class="flex align-items-center pb-20">
                         <img class="size-img inline-block" src="img/tomato.svg" alt="Tomato">
                         <h3 class="pl-20">Tomato</h3>
-                        <i class="fas fa-square-full ml-20"></i>
+                        <input class="square" type="checkbox" name="tomato" value="4">
                         <label class="ml-20 color-pink">add</label>
                     </div>
                     <div class="flex align-items-center pb-20">
                         <img class="size-img inline-block" src="img/lettuce.svg" alt="Lettuce">
                         <h3 class="pl-20">Lettuce</h3>
-                        <i class="fas fa-square-full ml-20"></i>
+                        <input class="square" type="checkbox" name="lettuce" value="2">
                         <label class="ml-20 color-pink">add</label>
                     </div>
                     <div class="flex align-items-center pb-20">
                         <img class="size-img inline-block" src="img/ketchup.svg" alt="Ketchup">
                         <h3 class="pl-20">Ketchup</h3>
-                        <i class="fas fa-square-full ml-20"></i>
+                        <input class="square" type="checkbox" name="ketchup" value="2">
                         <label class="ml-20 color-pink">add</label>
                     </div>
                 </div>
             </div>
 
             <h3 class="inline">Discount Coupon</h3>
-            <h3 class="color-grey inline pl-20">12345ABCDEF</h3>
+            <input id="coupon" type="text" name="coupon" placeholder="12345ABCDE">
             <div class="pb-50"></div>
 
-            <button id="my-button">calculate</button>
+            <button id="calculate" name="calculate">calculate</button>
         </div>
     </main>
 
     <footer>
-        <h2 class="my-footer flex space-between"><strong>Your Price</strong><strong>$ 50</strong></h2>
+        <h2><strong>Your Price</strong></h2>
+        <h2 id="total-price"><strong>$ 50</strong></h2>
     </footer>
     <script src="main.js"></script>
 </body>
